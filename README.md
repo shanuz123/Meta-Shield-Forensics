@@ -1,4 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Cybersecurity](https://img.shields.io/badge/Category-Forensics-red)
 # Meta-Shield
+![Tool Screenshot](screenshots/demo.png)
 
 **Meta-Shield** is a Python-based privacy tool designed to inspect and "clean" metadata (EXIF) from digital images. It features a modern, dark-mode GUI and powerful forensic capabilities to help users understand what data is hidden in their photos before sharing them online.
 
