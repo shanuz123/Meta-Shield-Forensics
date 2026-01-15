@@ -16,7 +16,7 @@
 ## Installation
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/meta-shield.git
+    git clone https://github.com/shanuz123/Meta-Shield-Forensics.git
     cd meta-shield
     ```
 
