@@ -1,0 +1,43 @@
+# Meta-Shield
+
+**Meta-Shield** is a Python-based privacy tool designed to inspect and "clean" metadata (EXIF) from digital images. It features a modern, dark-mode GUI and powerful forensic capabilities to help users understand what data is hidden in their photos before sharing them online.
+
+## Features
+*   **Drag & Drop Loading**: Easily select images to inspect.
+*   **Forensic Inspector**: improved detection logic that reveals:
+    *   Camera Make/Model
+    *   Date & Time Original
+    *   Software Used
+    *   **GPS Coordinates** (with automatic link to Google Maps)
+*   **Privacy scrubbing**: Strips *all* metadata tags and saves a clean copy (`filename_clean.jpg`).
+*   **Diganostic Mode**: Smartly detects if GPS data was stripped by other apps (like Snapseed or WhatsApp) while other metadata remains.
+*   **Modern UI**: Built with `customtkinter` for a sleek dark mode appearance.
+
+## Installation
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/meta-shield.git
+    cd meta-shield
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1.  Run the application:
+    ```bash
+    python meta_shield.py
+    ```
+2.  Click **Select Image** to load a JPEG/TIFF file.
+3.  Review the **Metadata Inspector** panel on the right.
+4.  Click **REMOVE METADATA & SAVE** to create a privacy-safe copy of your image.
+
+## Requirements
+*   Python 3.x
+*   `customtkinter`
+*   `Pillow`
+
+## License
+MIT License.
