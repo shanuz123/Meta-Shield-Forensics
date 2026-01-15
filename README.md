@@ -15,6 +15,10 @@
   </p>
 
   <br />
+  <img src="assets/demo.png" alt="Tool Demo" width="85%" style="border-radius: 15px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);" />
+  
+  <br />
+  <br />
 
 </div>
 
